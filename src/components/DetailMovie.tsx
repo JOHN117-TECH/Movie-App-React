@@ -3,7 +3,7 @@ import Movie from '../models/Movie';
 
 const DetailMovie: React.FC<{ movie: Movie | undefined }> = ({ movie }) => {
   return (
-    <div className="row align-items-start pt-5">
+    <div className="row align-items-start pt-5 container-details">
       <div className="col d-flex justify-content-center">
         <img src={movie?.Poster} style={{width:'12rem'}} alt="" />
       </div>
